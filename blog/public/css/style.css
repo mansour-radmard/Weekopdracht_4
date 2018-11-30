@@ -1,0 +1,174 @@
+/* ===========================================
+    Project: Blog post in php
+    Default Theme
+    ------------------------------------------
+    Fonts: Raleway & Open Sans
+    ------------------------------------------
+    Colors:
+      Black:                    #000
+=========================================== */
+
+/* ===========================================
+    Global Styles
+===========================================*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 85px;
+}
+
+.space-top {
+  margin-top: 3.8rem;
+}
+
+/* ===========================================
+    Navigation
+===========================================*/
+nav.navbar {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+  box-shadow: 0 8px 6px -9px #999;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+a.navbar-brand {
+  font-size: 185%;
+}
+
+i.fab.fa-blogger {
+  color: teal;
+}
+
+/* ===========================================
+    Blog page
+===========================================*/
+.card-title {
+  font-weight: 900;
+  border-bottom: 3px double #333;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+.card-details {
+  color: #b2b2b2;
+  font-size: small;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+/* i.far.fa-user-circle {
+  font-size: 270%;
+  margin-bottom: 30px;
+} */
+
+i.fas.fa-sign-in-alt {
+  font-size: 270%;
+  margin-bottom: 15px;
+}
+
+i.fas.fa-user-lock {
+  font-size: 120%;
+}
+
+i.fas.fa-sign-out-alt {
+  font-size: 120%;
+}
+
+.text-muted {
+  color: #007bff !important;
+}
+
+.btn-sub {
+  margin-bottom: 25px;
+}
+
+.btn-custom-info {
+  width: 35%;
+  font-weight: 800;
+}
+
+.textarea-update {
+  min-height: 200px;
+}
+
+#edit-title {
+  min-height: 50px;
+}
+
+.textarea-new-post {
+  min-height: 300px;
+}
+
+h5.card-header {
+  background-color: #333a41;
+  color: #fff;
+  font-weight: 700;
+}
+
+div.card-body.user-panel {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-custom {
+  width: 15%;
+}
+
+h6 a {
+  color: #ffffff;
+}
+
+h6 {
+  font-weight: 600;
+  font-size: 100%;
+}
+
+h6 i {
+  margin-right: 10px;
+}
+
+.btn-space-top {
+  margin-top: 20px;
+}
+
+.item-box.no-shad {
+  border: 1px solid #ccc;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 6rem;
+}
+
+.category {
+  margin-bottom: 10px;
+  font-size: 100%;
+  font-weight: 900;
+}
+
+.btn-pri-custom {
+  font-size: 115%;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.contain-admin {
+  min-height: 77vh;         
+}
